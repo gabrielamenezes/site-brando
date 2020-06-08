@@ -1,0 +1,302 @@
+/*
+HEADER
+*/
+body {
+    background-color: white;
+    background-size: 100vw 100vh;
+    min-width: 320px;
+
+}
+.main-header {
+    display: flex;
+    height: 40%;
+    width: 100%;
+    justify-content: space-around;
+    border-bottom: 1px solid #fe3434;
+    align-items: center;
+    box-shadow: 5px 5px 5px #77777785;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+}
+
+/* MENU */
+.menu {
+    text-align: center;
+}
+.menu a {
+    padding: 10px 20px;
+    display: inline-block;
+    color: #777777;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    border: 1px solid #fe3434;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+
+
+/* HERO SECTION */
+.block-hero {
+    background: url(../img/back.jpg);
+    width: 100%;
+    height: 60vh;
+}
+
+.banner-content {
+    color: #ffffff;
+    width: 100%;
+    padding-top: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.banner-content .banner-title {
+    font-size: 2rem;
+    max-width: 50%;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+@media (min-width: 700px) {
+    .banner-content .banner-title {
+        max-width: 100%;
+        font-size: 2.75rem;
+    }
+    .banner-content .btn-banner {
+        margin-top: 30px;
+    }
+
+
+}
+
+.banner-content .p-banner {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #ffffffc9;
+}
+
+.banner-content a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.banner-content .btn-banner {
+    padding: 10px 30px;
+    border: 2px solid #ffffffc0;
+    border-radius: 20px;
+}
+
+.banner-content .btn-banner:hover {
+    background: linear-gradient(#fe3434 , #ff5656);
+}
+
+/* OUR WORKS */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg-section {
+    width: 100%;
+    height: 40vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.txt-sec {
+    text-align: center;
+}
+.subtitle {
+    color: #545454;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.p-section {
+    color: #545454;
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    
+}
+
+/* OUR WORKS PICS */
+.section-pic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.img {
+    width: 280px;
+}
+
+/* CAPTIONS */
+.caption {
+    padding: 15px;
+    font-size: 1.3em;
+    text-align: center;
+    color: #ff5656;
+    font-weight: bold;
+}
+
+.p-caption {
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #545454;
+    margin-bottom: 20px;
+}
+
+.section-pic figure p {
+    margin-bottom: 10px;
+}
+
+/* OUR TEAM */
+
+
+
+/*CONTACT US */
+
+.contact-us {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title-form {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #545454;
+    padding-bottom: 10px;
+}
+
+.form-contact {
+    width: 100%;
+    text-align: center;
+    
+}
+.form-contact form label {
+    display: table;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #545454;
+    margin-left: 5%;
+}
+
+.p-contact {
+    color: #3b3939;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+.input {
+    padding: 10px 0;
+    margin-top: 8px;
+    width: 90%
+}
+
+
+.addres-contact {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.email {
+    color: rgb(255, 77, 106);
+    text-decoration: none;
+}
+
+.map-contact {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-form {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #7070708c;
+    box-shadow: 1px 1px 3px #cccccc;
+}
+
+.btn-form:hover {
+    cursor: pointer;
+}
+
+.btn-form:active {
+    box-shadow: 1px 1px 3px inset #cccccc;
+}
+
+@media(min-width:700px) {
+    .contact-us {
+        flex-direction: row;
+        height: 60vh;
+    }
+
+    
+    .form-contact {
+    width: 38%;
+    margin-right: 2%;
+    }
+    .form-contact form label {
+        margin-left: 25px;
+    }
+    
+    .addres-contact {
+        width: 30%;
+        text-align: center;
+    }
+
+
+
+    .btn-form {
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    .map-contact {
+        width: 30%;
+    }
+
+    .map-contact figure img{
+        width: 350px;
+    }
+}
+
+/* RODAPÉ */
+.footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fe3434;
+}
+
+.footer p {
+    color: #ffffff;
+}
